@@ -36,25 +36,50 @@ const playlist = [
     { title: "sound design - aliens", url: "SFX/sound design - aliens.mp3" },
 ];
 
+let currentTrackIndex = -1;
+
 const audioPlayer = document.getElementById('audioPlayer');
 const playlistElement = document.getElementById('playlist');
+
+function updateCurrentTrack(index) {
+    currentTrackIndex = index;
+    const track = playlist[currentTrackIndex];
+    audioPlayer.src = track.url;
+    audioPlayer.play();
+    document.getElementById('currentTrackTitle').textContent = track.title;
+
+    // Highlight the active track
+    const playlistItems = document.querySelectorAll('#playlist li');
+    playlistItems.forEach((item, idx) => {
+        if (idx === currentTrackIndex) {
+            item.classList.add('active');
+        } else {
+            item.classList.remove('active');
+        }
+    });
+}
+
+audioPlayer.addEventListener('ended', () => {
+    // Play the next track if available
+    const nextTrackIndex = (currentTrackIndex + 1) % playlist.length;
+    updateCurrentTrack(nextTrackIndex);
+});
 
 playlist.forEach((beat, index) => {
     const listItem = document.createElement('li');
     listItem.textContent = beat.title;
 
     const downloadBtn = document.createElement('button');
-    downloadBtn.textContent = 'D';
+    downloadBtn.textContent = 'DL';
     downloadBtn.className = 'download-btn';
     downloadBtn.addEventListener('click', (event) => {
-        event.stopPropagation(); // Prevent the list item click event
+        event.stopPropagation();
         downloadTrack(beat.url, beat.title);
     });
 
     listItem.appendChild(downloadBtn);
     listItem.addEventListener('click', () => {
-        audioPlayer.src = beat.url;
-        audioPlayer.play();
+        updateCurrentTrack(index);
     });
 
     playlistElement.appendChild(listItem);
@@ -68,3 +93,5 @@ function downloadTrack(url, title) {
     link.click();
     document.body.removeChild(link);
 }
+
+
