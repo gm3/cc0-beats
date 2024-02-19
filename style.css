@@ -99,3 +99,11 @@ body, html {
 .download-btn:hover {
     background-color: #FFD324; /* Lighter yellow on hover */
 }
+
+.mint{
+    color: #8f8f8f;
+}
+
+.mint a {
+    color: white;
+}
