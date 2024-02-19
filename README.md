@@ -16,30 +16,6 @@ Creative Commons Zero (CC0) is a public domain license. This means you can use t
 - **Quality**: Despite being free, these beats don't skimp on quality. They are professionally produced and ready for your next project.
 - **Ease of use**: No need to worry about complex licensing agreements. CC0 is as straightforward as it gets!
 
-## Tracklist
-
-- Boomboxhead-BigTipper.mp3
-- Boomboxhead-BleepsAndBloops.mp3
-- Boomboxhead-CameUp.mp3
-- Boomboxhead-ContententNumber2.mp3
-- Boomboxhead-DontMatter.mp3
-- Boomboxhead-GoGetTheBag.mp3
-- Boomboxhead-GoGetTheBagVocaloid.mp3
-- Boomboxhead-GoingAway.mp3
-- Boomboxhead-GotItOutTheDirt.mp3
-- Boomboxhead-HardHitter.mp3
-- Boomboxhead-JohnnyDang.mp3
-- Boomboxhead-NoMore.mp3
-- Boomboxhead-OutOfHere.mp3
-- Boomboxhead-PianoMan.mp3
-- Boomboxhead-PuttingWorkInTheMetaverseInstrumental.mp3
-- Boomboxhead-SpaceKnock.mp3
-- Boomboxhead-Stardust-OnChain.mp3
-- Boomboxhead-ThankGodIMadeIt.mp3
-- Boomboxhead-ThingsAboutYou.mp3
-- Boomboxhead-WAGMI.mp3
-- Boomboxhead-Whammer.mp3
-
 ## License
 
 All beats in this repository are released under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). See the `LICENSE.md` file for details.
