@@ -2,6 +2,9 @@
 
 Welcome to the Boomboxhead CC0 Beats repository! Here you can find a variety of high-quality beats released under the CC0 license.
 
+## Webplayer
+https://gm3.github.io/cc0-beats/
+
 ## What are CC0 Beats?
 
 Creative Commons Zero (CC0) is a public domain license. This means you can use these beats for any purpose, without any restrictions or needing to give credit. However, we always appreciate a shoutout if you use our beats in your projects!
