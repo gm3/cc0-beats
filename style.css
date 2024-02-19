@@ -36,8 +36,8 @@ body, html {
 }
 
 .player-image {
-    height: 100px; /* Adjust as needed */
-    width: auto;
+    height: 4.2em; /* Adjust as needed */
+    width: 5em;
     z-index: 1;
 }
 
@@ -57,8 +57,8 @@ body, html {
 }
 
 .playlist {
-    margin-top: 50px; /* Height of the player plus some */
-    padding: 0 10px;
+    margin-top: 100px; /* Height of the player plus some */
+    padding: 0 0px;
     overflow-y: auto;
     background-color: #1A1A1A; /* Slightly lighter black for contrast */
     color: #FFF;
@@ -71,7 +71,7 @@ body, html {
 
 .playlist ul li {
     cursor: pointer;
-    padding: 8px 5px;
+    padding: 1px 5px;
     border-bottom: 1px solid #333;
     display: flex;
     justify-content: space-between;
