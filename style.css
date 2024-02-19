@@ -87,7 +87,7 @@ body, html {
 }
 
 .download-btn {
-    background-color: #F9D70B; /* Winamp yellow for buttons */
+    background-color: #0bf96e; /* Winamp yellow for buttons */
     border: none;
     color: #0B0B0B; /* Dark text for contrast */
     padding: 5px 8px;
