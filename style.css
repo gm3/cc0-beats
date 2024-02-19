@@ -14,14 +14,31 @@ body, html {
 }
 
 .player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
     background-color: #333333; /* Dark grey */
     z-index: 1000;
     padding: 5px 0;
     color: #D8D8D8; /* Light grey text color */
+}
+
+.player-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.player-image {
+    height: 100px; /* Adjust as needed */
+    width: auto;
+    z-index: 1;
 }
 
 .audio-controls {
